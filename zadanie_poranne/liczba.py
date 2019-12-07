@@ -6,9 +6,3 @@ class Number:
         self.value = 0
     def ustaw(self, ustaw):
         self.value = ustaw
-
-numer = Number(2)
-numer.wyzeruj()
-print(numer.value)
-numer.ustaw(9)
-print(numer.value)
