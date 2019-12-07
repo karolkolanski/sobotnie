@@ -8,6 +8,6 @@ class AbsolutZero(Number):
     def reklama(self):
         print('Ucz się!')
 
-
+print("Jestem moduł ", __name__)
 zero = AbsolutZero()
 print(zero)
